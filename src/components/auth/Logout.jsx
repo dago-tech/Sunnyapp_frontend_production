@@ -28,7 +28,7 @@ export default function Logout() {
       {error && (
         <div className="center">
           <p className="error">{error}</p>
-          <Link to="/home">Home</Link>
+          <p><Link to="/home">Home</Link></p>
         </div>
       )}
     </>
