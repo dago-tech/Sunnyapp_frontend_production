@@ -1,0 +1,56 @@
+.create-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-edit-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.create-user-container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+}
+
+.create-user-container label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.create-user-container input {
+  width: 87%;
+  padding: 8px 30px 8px 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.create-user-container span {
+  position: relative;
+  bottom: 34px;
+  left: 275px;
+  cursor: pointer;
+  color: #777;
+}
+
+.create-user-container button {
+  background-color: #2a6968;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.create-user-container button:hover {
+  background-color: #3e8391;
+}
