@@ -2,7 +2,7 @@ import axios from "axios";
 
 /* Gestiona las solicitudes HTTP y del token de refresco */
 
-const baseURL = "http://127.0.0.1:8000/api/";
+const baseURL = "https://sunnyapp-backend-d3992be5f943.herokuapp.com/api/";
 
 const api = axios.create({
   baseURL: baseURL,
